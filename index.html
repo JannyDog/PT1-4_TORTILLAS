@@ -1,0 +1,155 @@
+<html>
+<head>
+<style>
+.container {
+	align: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 200px 200px 200px;
+	grid-template-areas:
+		"box1 box1 box1"
+		"box2 box3 box4"
+		"box5 box5 box5"
+	}
+	
+.box1 {
+	Background-color: #CCF3EE; 
+	grid-area: box1;
+	font-family: "Comic Sans MS";
+	border: 2px solid black;
+	text-align:center;
+	font-size:50px;
+	padding: 60px;
+}
+
+.box2 {
+	Background-color: #F9EBDF; 
+	grid-area: box2;
+	font-family: "Comic Sans MS";
+	text-align:center;
+	border-right: 2px solid black;
+	border-left: 2px solid black;
+	font-size:30px;
+	padding: 80px;
+}
+
+.box3{
+	grid-area:box3;
+	Background-color: #EFF9DA; 
+	font-family: "Comic Sans MS";
+	text-align:center;
+	border-right: 2px solid black;
+	font-size:30px;
+	padding: 75px;
+} 
+
+.box4 {
+	grid-area: box4;
+	Background-color: #CBE4F9; 
+	font-family: "Comic Sans MS";
+	text-align:center;
+	border-right: 2px solid black;
+	font-size:30px;
+	padding: 75px;
+} 
+
+.box5 {
+	grid-area: box5;
+	Background-color: #D6CDEA; 
+	font-family: "Comic Sans MS";
+	text-align:center;
+	border: 2px solid black;
+	font-size:50px;
+	padding: 60px;
+}
+
+a:hover {
+  color: #FD5D5D
+  ;
+}
+
+@media screen and (max-width:600px){
+
+.container {
+	align: center;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 200px 200px 200px 200px 200px;
+	grid-template-areas:
+		"box1"
+		"box2"
+		"box3"
+		"box4"
+		"box5"
+	}
+
+.box1 {
+	Background-color: #CCF3EE; 
+	grid-area: box1;
+	font-family: "Comic Sans MS";
+	border: 2px solid black;
+	text-align:center;
+	font-size:50px;
+	padding: 25px;
+}
+
+.box2 {
+	Background-color: #F9EBDF; 
+	grid-area: box2;
+	font-family: "Comic Sans MS";
+	text-align:center;
+	border-right: 2px solid black;
+	border-left: 2px solid black;
+	font-size:30px;
+	padding: 75px;
+}
+
+.box3{
+	grid-area:box3;
+	Background-color: #EFF9DA; 
+	font-family: "Comic Sans MS";
+	text-align:center;
+	border: 2px solid black;
+	font-size:30px;
+	padding: 75px;
+} 
+
+.box4 {
+	grid-area: box4;
+	Background-color: #CBE4F9; 
+	font-family: "Comic Sans MS";
+	text-align:center;
+	border-right: 2px solid black;
+	border-left: 2px solid black;
+	font-size:30px;
+	padding: 75px;
+} 
+
+.box5 {
+	grid-area: box5;
+	Background-color: #D6CDEA; 
+	font-family: "Comic Sans MS";
+	text-align:center;
+	border: 2px solid black;
+	font-size:50px;
+	padding: 60px;
+}
+
+a:hover {
+  color: #FD5D5D;
+}
+
+</style>
+</head>
+<body>
+<p style="font-size:20px"><p style="font-family:Comic Sans MS">YOU WANT TO KNOW ME??? THEN UR IN THE CORRECT PLACE. CLICK THEM WORDS.</p>
+
+	<div class="container">
+		<div class="box1"><b><a href="PERSONAL INFORMATION.html" style="text-decoration:none">Personal Information</a></b></div>
+		<div class="box2"><b><a href="TV.html" style="text-decoration:none">TV Series</a></b></div>
+		<div class="box3"><b><a href="NBA.html" style="text-decoration:none">NBA</a></b></div>
+		<div class="box4"><b><a href="Games.html" style="text-decoration:none">Games</a></b></div>
+		<div class="box5"><b><a href="Goals.html" style="text-decoration:none">Goals in Life</a></b></div>
+	</div>
+</body>
+</html>

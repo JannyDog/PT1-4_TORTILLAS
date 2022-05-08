@@ -1,0 +1,134 @@
+<html>
+<head>
+<style>
+.flex-container{
+	align: center;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center; 
+	justify-content: center;
+	background-color: #86C5D8;
+	}
+.flex-item-home{
+	Background-color: #f6abb6; 
+	width: 100px;
+	margin: 10px;
+	font-family: "Comic Sans MS";
+	text-align:center;
+	font-size:20px;
+	border: 2px solid black;
+	line-height: 50px;
+}	
+.flex-item-tv{
+	background-color: #F9EBDF;
+	width: 100px;
+	margin: 10px;
+	text-align: center;
+	font-size: 20px;
+	font-family: "Comic Sans MS";
+	text-align:center;
+	border: 2px solid black;
+	line-height: 50px;
+}
+.flex-item-nba{
+	Background-color: #EFF9DA; 
+	width: 100px;
+	margin: 10px;
+	font-family: "Comic Sans MS";
+	text-align:center;
+	border: 2px solid black;
+	font-size:20px;
+	line-height: 50px;
+}
+.flex-item-games{
+	Background-color: #CBE4F9; 
+	width: 100px;
+	margin: 10px;
+	font-family: "Comic Sans MS";
+	text-align:center;
+	font-size:20px;
+	border: 2px solid black;
+	line-height: 50px;
+}
+.flex-item-gil{
+	Background-color: #D6CDEA; 
+	width: 100px;
+	margin: 10px;
+	font-family: "Comic Sans MS";
+	text-align:center;
+	font-size:20px;
+	border: 2px solid black;
+}
+
+.container{
+	padding: 10px;
+	background-color: #F0F8FF;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 100px 350px; 
+	grid-template-areas:
+	"title title"
+	"body body"
+}
+.title{
+	background-color:#F0F8FF;
+	border: 2px solid black;
+	text-align:center;
+	line-height: 90px;
+	grid-area:title;
+	font-family: "Comic Sans MS";
+	text-align:center;
+	font-size:30px;
+}
+.body {
+	background-color:#F0F8FF;
+	border-right: 2px solid black;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+	line-height: 50px;
+	grid-area:body;
+	font-family: "Comic Sans MS";
+	text-align:left;
+	font-size:30px;	
+}
+a:hover {
+  color: #FD5D5D;
+}
+
+@media screen and (max-width:600px){
+.container{
+	padding: 10px;
+	background-color: #F0F8FF;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 180px 600px; 
+	grid-template-areas:
+	"title title"
+	"body body"
+}
+
+
+</style>
+</head>
+<body>
+	<div class="flex-container">
+		<div class="flex-item-home"><a href="index.html" style="text-decoration:none">Home</a></div>
+		<div class="flex-item-tv"><a href="TV.html" style="text-decoration:none">TV Series</a></div>
+		<div class="flex-item-nba"><a href="NBA.html" style="text-decoration:none">NBA</a></div>
+		<div class="flex-item-games"><a href="Games.html" style="text-decoration:none">Games</a></div>
+		<div class="flex-item-gil"><a href="Goals.html" style="text-decoration:none">Goals In Life</a></div>
+	</div>
+	
+	<div class="container">
+	<div class="title">This is <b>some</b> of my Personal Information</div>
+	<div class="body">
+		<ul>
+			<li>My full name Is John Wilfred Q. Tortillas.</li>
+			<li>The "Q" in my name stands for Quijano.</li>
+			<li>I just turned 16 years old last March 8.</li>
+			<li>I don't have any particular talents.</li>
+			<li>This is a boring part of the website.</li>
+			<li>Go click something else.</li>
+	
+</body>
+</html>
